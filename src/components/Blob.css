@@ -1,0 +1,7 @@
+/* .blob{
+    position: absolute;
+  } */
+
+  .blob svg {
+      z-index: 1 ;
+  }
