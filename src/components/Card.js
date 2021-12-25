@@ -4,7 +4,7 @@ import classes from "./Card.module.scss";
 
 function Card(props) {
   return (
-    <section className="card-container">
+    <section className={props.className}>
       <figure>
         <h1>{props.title}</h1>
         {/* Image being passed through as props */}
