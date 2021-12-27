@@ -12,10 +12,10 @@ import NodeJS from "../assets/NodeJS.png"
 
 function SkillsCircle(props) {
   return (
-    <container className={props.Classname}>
+    <container className={props.className}>
       <ul class="circle-container">
         <li>
-        <img style={{ height: "60%" }} src={HTML} />
+        <img style={{ height: "60%" }} src={HTML} alt="HTML"/>
         </li>
         <li>
         <img style={{ height: "40%" }} src={JS} />

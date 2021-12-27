@@ -62,12 +62,10 @@ const Projects = () => {
         href={"https://github.com/RichardGAnthology/Drawing-App"}
         href2={"https://drawing-between-the-lines.web.app/landingPage"}
       />
-      <div className="skills">SKILLS</div>
-
-      
-      {/* circle of skills */}
-      <SkillsCircle className={"skills-circle"}/>
-      
+      <div className="skills">
+        {/* circle of skills */}
+        {/* <SkillsCircle className={"skills-circle"} /> */}
+      </div>
     </section>
   );
 };

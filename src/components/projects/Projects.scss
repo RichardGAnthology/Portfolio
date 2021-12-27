@@ -20,7 +20,6 @@
     "card-3 skills card-4";
   padding-top: 20vh;
   padding-bottom: 10vh;
-
   width: 100vw;
 }
 
@@ -46,11 +45,23 @@
 }
 
 .skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "skills-circle skills-circle skills-circle"
+    "skills-circle skills-circle skills-circle"
+    "projects-lottie projects-lottie projects-lottie";
   grid-area: skills;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-// -----------------
+.skills-circle {
+  grid-area: skills-circle;
+  justify-self: center;
+
+}
+.projects-lottie {
+  grid-area: projects-lottie;
+}
 
