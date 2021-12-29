@@ -65,6 +65,7 @@ const Projects = () => {
       <div className="skills">
         {/* circle of skills */}
         {/* <SkillsCircle className={"skills-circle"} /> */}
+      {/* test- to delete */}
       </div>
     </section>
   );
