@@ -66,11 +66,39 @@
     margin-top:-10em;
   }
  }
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav{
+    height: 8vh;
+  }
+  .profile-picture img{
+    height: 8em;
+  }
+  
+  .description{
+    font-size: .75em;
+    border:solid;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+  }
 
- /* @media only screen and (max-width: 1200){
-   .profile-svg{
-     position: relative;
-     border:solid thick black;
 
-   }
- } */
+  .description h1{
+    font-size: .5em;
+  }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (min-width: 600px) {...} */
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {...} */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (min-width: 992px) {...} */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /* @media only screen and (min-width: 1200px) {...}  */
