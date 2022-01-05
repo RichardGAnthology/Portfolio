@@ -10,17 +10,13 @@
     "description lotti-file"
     "profile-svg profile-svg";
   height: 90vh;
-  background: #ff9966; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ff5e62,
-    #ff9966
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ff5e62,
-    #ff9966
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #67abf4; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(left, #aba9a5, #ffffff); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #aba9a5, #ffffff); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: -moz-linear-gradient(left, #aba9a5, #ffffff); */
 
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -45,7 +41,7 @@ nav {
     "name . links"
     ". . .";
   grid-area: nav-bar;
-  background-color: skyblue;
+  background-color: #adcff6;
   position: fixed;
   width: 100%;
   /* top:0; */
@@ -149,8 +145,8 @@ nav {
   grid-area: profile-svg;
   position: relative;
   z-index: 2;
- /* background-color: white; */
- margin-bottom: -1vh;
+  /* background-color: white; */
+  margin-bottom: -1vh;
 }
 
 .custom-shape-divider-bottom-1640354007 {
@@ -172,7 +168,7 @@ nav {
 }
 
 .custom-shape-divider-bottom-1640354007 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /* nav {

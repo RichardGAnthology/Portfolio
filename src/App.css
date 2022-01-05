@@ -68,25 +68,55 @@
  }
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  
   nav{
     height: 8vh;
+    width: 100%;
+  }
+
+  .name{
+    margin-left: 1vh;
+  }
+
+  .links{
+    margin-right: 1vh;
+  }
+
+  .profile-container{
+    height: 95vh;
   }
   .profile-picture img{
     height: 8em;
   }
   
-  .description{
-    font-size: .75em;
-    border:solid;
-    display: flex;
+ 
+  .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.3fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
     justify-items: center;
     align-items: center;
-    
+    grid-template-areas:
+      "name-intro name-intro name-intro"
+      "about-me about-me about-me"
+      "profile-picture profile-picture profile-picture";
+    grid-area: description;
+    text-align: left;
+    margin-top:-10vh;
   }
-
+  
 
   .description h1{
-    font-size: .5em;
+    font-size: 1em;
+    right:16vw;
+    position: relative;
+  }
+
+  .about-me {
+    left: 4vw;
+    font-size: .7em;
   }
 
  }
