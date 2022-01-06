@@ -22,7 +22,7 @@ function Card(props) {
 
             {/* Link to the Deployed App */}
             <a href={props.href2} target="_blank" rel="noreferrer noopener">
-              <button>Deployed App</button>
+              <button>{props.secondButton}</button>
             </a>
           </div>
         </figcaption>

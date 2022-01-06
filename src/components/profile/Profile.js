@@ -28,7 +28,7 @@ function Profile() {
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: require("../../assets/computerv9.json"),
+      animationData: require("../../assets/computerv11.json"),
     });
   }, []);
 
